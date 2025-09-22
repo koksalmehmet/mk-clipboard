@@ -1,0 +1,638 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.xctest/Contents/MacOS/SharedClipboardKitPackageTests",
+      "packagePath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit",
+      "productName" : "SharedClipboardKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SharedClipboardKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/sources",
+      "importPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Sources/SharedClipboardKit/ClipboardRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SharedClipboardKit",
+      "moduleOutputPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKit.swiftmodule",
+      "objects" : [
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/include/SharedClipboardKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sharedclipboardkit"
+      ],
+      "outputFileMapPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Sources/SharedClipboardKit/ClipboardRecord.swift"
+      ],
+      "tempsPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SharedClipboardKitPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/sources",
+      "importPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SharedClipboardKitPackageTests",
+      "moduleOutputPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/include/SharedClipboardKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sharedclipboardkit"
+      ],
+      "outputFileMapPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SharedClipboardKitTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/sources",
+      "importPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Tests/SharedClipboardKitTests/ClipboardRecordTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SharedClipboardKitTests",
+      "moduleOutputPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKitTests.swiftmodule",
+      "objects" : [
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/ClipboardRecordTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sharedclipboardkit"
+      ],
+      "outputFileMapPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/ClipboardRecordTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules/SharedClipboardKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Tests/SharedClipboardKitTests/ClipboardRecordTests.swift"
+      ],
+      "tempsPath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SharedClipboardKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SharedClipboardKit",
+      "-package-name",
+      "sharedclipboardkit",
+      "-c",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Sources/SharedClipboardKit/ClipboardRecord.swift",
+      "-I",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/include/SharedClipboardKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sharedclipboardkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SharedClipboardKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SharedClipboardKitPackageTests",
+      "-package-name",
+      "sharedclipboardkit",
+      "-c",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/include/SharedClipboardKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sharedclipboardkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SharedClipboardKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SharedClipboardKitTests",
+      "-package-name",
+      "sharedclipboardkit",
+      "-c",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Tests/SharedClipboardKitTests/ClipboardRecordTests.swift",
+      "-I",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sharedclipboardkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SharedClipboardKit" : [
+
+    ],
+    "SharedClipboardKitPackageTests" : [
+      "SharedClipboardKitTests",
+      "SharedClipboardKit"
+    ],
+    "SharedClipboardKitTests" : [
+      "SharedClipboardKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Sources/SharedClipboardKit/ClipboardRecord.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/sources"
+    },
+    "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/sources"
+    },
+    "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/ClipboardRecordTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Tests/SharedClipboardKitTests/ClipboardRecordTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitTests.build/sources"
+    },
+    "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

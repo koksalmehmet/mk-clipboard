@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/master.swiftdeps"
+  },
+  "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.d",
+    "object": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKitPackageTests.build/runner.dia"
+  }
+}

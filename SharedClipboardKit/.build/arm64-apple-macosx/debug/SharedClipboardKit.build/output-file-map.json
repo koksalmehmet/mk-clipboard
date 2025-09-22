@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/master.swiftdeps"
+  },
+  "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/Sources/SharedClipboardKit/ClipboardRecord.swift": {
+    "dependencies": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.d",
+    "object": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.swift.o",
+    "swiftmodule": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.swiftdeps",
+    "diagnostics": "/Users/mehmetkoksal/Documents/Projects/Personal/mk-clipboard/SharedClipboardKit/.build/arm64-apple-macosx/debug/SharedClipboardKit.build/ClipboardRecord.dia"
+  }
+}
